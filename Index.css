@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#title{
+    max-width: 100%vh;
+    background-image:url("Image/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+/* Logo */
+.nav-height{
+    height: 60px;
+}
+.Logo{
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    margin-left: 100px;
+    
+}
+.logo-word{
+  color: black;
+}
+/* Icon */
+.icon{
+    color: white;
+}
+/* Headline */
+.headline{
+    margin-top: 280px;
+    margin-left: 100px;
+}
+/* Title */
+.title::before{
+    background: rgba(80,55,55,0.15);
+    content: "";
+    display: block;
+    height: 6px;
+    margin: 0 auto;
+    width: 80px;
+}
+.title::after{
+    background: rgba(80,55,55,0.15);
+    content: "";
+    display: block;
+    height: 6px;
+    margin: 0 auto;
+    width: 80px;
+}
+.title-bottom{
+    font-size: 25px;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 20px;
+}
+.card-deatils{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.img-card{
+    border-radius: 100%;
+    width:100px;
+    height: 100px;
+}
+.card-img{
+    height: 300px;
+    max-width: fit-content;
+}
+.card-height{
+   height: 360px;
+   width: auto;
+}
+.btn-login {
+    background-color: #ff6600;
+}
+.sign-up-btn{
+    background-color: #ff6600;
+}
+hr{
+    background-color: snow;
+}
+/* Logo COntainer */
+
+.logo-bottom{
+    background-color: #ff6600;
+    box-shadow: 10px 8px 10px black;
+    height: 100px;
+    width: 100px;
+}
+.logo-conatiner{
+    margin-top: 60px;
+}
+.logo-text{
+margin-top: 40px;
+text-align: center;
+
+}
+/* ICon */
+.icon-facebook{
+    width: 50px;
+    height: 50px;
+    color: rgb(12, 8, 252);
+    margin: 30px;
+} 
+.icon-whatsapp{
+    width: 50px;
+    height: 50px;
+    color: rgb(8, 252, 138);
+    margin: 30px;
+} 
+.icon-insta{
+    width: 50px;
+    height: 50px;
+    color: rgb(252, 8, 199);
+    margin: 30px;
+} 
